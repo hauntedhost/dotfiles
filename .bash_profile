@@ -35,5 +35,5 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 source ~/.git-prompt.sh
 
 # custom prompt
-export PROMPT_COMMAND='__git_ps1 "⤷ \[\033[0;35m\]\u@\h\[\033[0;33m\] \w\[\033[00m\]" " "'
+export PS1="⤷ \[\033[0;35m\]\u@\h\[\033[0;33m\] \w\[\033[00m\]\$(__git_ps1 \" (%s)\") "
 
