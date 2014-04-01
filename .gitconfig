@@ -1,0 +1,8 @@
+[push]
+  default = current
+[user]
+  name = Sean Omlor
+  email = somlor@eml.cc
+[core]
+  excludesfile = /home/sean/.gitignore_global
+[heroku]

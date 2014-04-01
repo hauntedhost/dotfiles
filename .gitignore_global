@@ -1,0 +1,8 @@
+Thumbs.db
+*.DS_Store
+.ruby-version
+public/android-apps
+public/ios-apps
+config/appgravity.yml
+stdout
+
