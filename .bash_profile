@@ -6,7 +6,10 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 alias az='cd /usr/local/arizona'
 alias azr='cd ~/code/appgravity'
 alias cdiff='colordiff -burN'
+alias code='cd ~/code'
+alias julia='/Applications/Julia-0.2.1.app/Contents/Resources/julia/bin/julia'
 alias pys='python -m SimpleHTTPServer'
+alias sage='ssh-agent && ssh-add ~/.ssh/id_rsa'
 alias v+='cd ~/code/venue+'
 
 # default editor
@@ -36,4 +39,3 @@ source ~/.git-prompt.sh
 
 # custom prompt
 export PS1="⤷ \[\033[0;35m\]\u@\h\[\033[0;33m\] \w\[\033[00m\]\$(__git_ps1 \" (%s)\") "
-
