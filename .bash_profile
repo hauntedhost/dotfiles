@@ -10,6 +10,8 @@ alias code='cd ~/code'
 alias julia='/Applications/Julia-0.2.1.app/Contents/Resources/julia/bin/julia'
 alias pys='python -m SimpleHTTPServer'
 alias sage='ssh-agent && ssh-add ~/.ssh/id_rsa'
+alias topspin='cd ~/code/topspin-manager'
+alias ptaskfix='cp -f ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PlainTasks/tasks-monokai.hidden-tmTheme.bak ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PlainTasks/tasks-monokai.hidden-tmTheme'
 alias v+='cd ~/code/venue+'
 
 # default editor
@@ -19,9 +21,11 @@ export EDITOR='vim'
 export PGHOST=localhost
 
 # paths
+PATH=/usr/local/bin:/usr/local/sbin:$PATH
 PATH=$PATH:/usr/local/share/npm/bin # npm
 PATH=$PATH:$HOME/.rvm/bin # rvm
 PATH=$PATH:$HOME/bin # my home bin
+PATH=$PATH:/usr/local/android-developer-tools/sdk/platform-tools
 
 # Load rvm into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
